@@ -1,6 +1,6 @@
 # PhoneBoook Contact Management: Your Personal Digital Rolodex
 
-Introducing a sleek and intuitive contact management application that puts the power of organization and accessibility at your fingertips. Designed to be your personal digital rolodex, this app effortlessly manages your contacts, ensuring you never lose track of important connections.
+Introducing a sleek and intuitive contact management web application that puts the power of organization and accessibility at your fingertips. Designed to be your personal digital rolodex, this app effortlessly manages your contacts, ensuring you never lose track of important connections.
 
 ## Key Features:
 
