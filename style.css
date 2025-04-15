@@ -1,0 +1,31 @@
+/* Add your CSS styles here */
+#frame_up {
+    background-color: #4456F0;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#frame_down {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#frame_table {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+input, select, button {
+    margin-right: 10px;
+}

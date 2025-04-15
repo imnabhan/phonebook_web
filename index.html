@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhoneBook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="frame_up">
+        <h1>PhoneBook</h1>
+    </div>
+    <div id="frame_down">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="">Select Gender</option>
+            <option value="F">Female</option>
+            <option value="M">Male</option>
+        </select>
+        <label for="telephone">Telephone:</label>
+        <input type="text" id="telephone" name="telephone">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <button id="add-btn">Add</button>
+        <button id="update-btn">Update</button>
+        <button id="delete-btn">Delete</button>
+        <input type="text" id="search-input" name="search" placeholder="Search by Telephone">
+        <button id="search-btn">Search</button>
+    </div>
+    <div id="frame_table">
+        <table id="contacts-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Telephone</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
